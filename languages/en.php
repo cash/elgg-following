@@ -17,11 +17,11 @@
     'friends:of' => "Followers",
     'friends:of:owned' => "People who are following %s",
     'friends:num_display' => "Number of people to display",
-    'friends:collections' => "Following collections",
-    'friends:collections:add' => "New following collection",
-    'friends:addfriends' => "Follow",
-    'friends:collectionname' => "Following name",
-    'friends:collectionfriends' => "Users in collection",
+    'friends:collections' => "Member collections",
+    'friends:collections:add' => "New collection",
+    'friends:addfriends' => "Add to collection",
+    'friends:collectionname' => "Collection name",
+    'friends:collectionfriends' => "Members in collection",
 
     'friends:river:created' => "%s added the following widget.",
     'friends:river:updated' => "%s updated their following widget.",
@@ -30,10 +30,47 @@
  
     'river:widget:title:friends' => "Following Activity",
     'river:relationship:friend' => "is now following",
+		'river:widget:type' => "Which river would you like to display? One that shows your activity or one that shows the activity of those you are following?",
+		'river:widgets:friends' => "Following",
+		'river:widget:description:friends' => "Show the activity of those you follow",
+		
+    'thewire:friendsdesc' => 'This widget will show the latest from those you following on the wire',
+    'thewire:friends' => 'Following activity on the wire',
+
+		'activity:friends' => 'Following activity',
+		'activity:person:friends' => '%s\'s following activity',
+
+    'blog:user:friends' => "%s's following blogs",
+    'blog:friends' => "Following blogs",
+    'blog:yourfriends' => "Latest following blogs",
+
+    'bookmarks:friends' => "Following bookmarks",
+    'bookmarks:bookmarklet:description' =>
+        "The bookmarks bookmarklet allows you to share any resource you find on the web with others, or just bookmark it for yourself. To use it, simply drag the following button to your browser's links bar:",
 
     'groups:invite' => "Invite someone",
     'groups:inviteto' => "Invite someone to '%s'",
-		'groups:nofriends' => "You have no one left who you are following that has not been invited to this group.",
+		'groups:nofriends' => "You have no one left whom you are following that has not been invited to this group.",
+
+    'feeds:friends' => "Following feeds",
+    'feeds:friendsfeeds' => 'Following feeds',
+    'feeds:friendswelcome' => "This page lets you view all of the feeds of those you are following who have made them available to their network. If any are available, you will see a list over on the righthand side. Click on a link to read the contents",
+
+    'file:yours:friends' => "Following files",
+    'file:friends' => "%s's following files",
+    'file:friends:type:video' => "Following videos",
+    'file:friends:type:document' => "Following documents",
+    'file:friends:type:audio' => "Following audio",
+    'file:friends:type:image' => "Following pictures",
+    'file:friends:type:general' => "Following general files",
+
+    'friends:all' => 'Everyone you are following',
+    'notifications:subscriptions:collections:title' => 'Collection Notifications',
+		'notifications:subscriptions:collections:description' => 'To toggle settings for members of your collections, click the icons below.',
+		'notifications:subscriptions:collections:edit' => 'To edit your collections, click here.',
+		'notifications:subscriptions:description' => 'To receive notifications when new content is created by the people you are following, find them below and select the notification method you would like to use.',
+
+    'access:friends:label' => 'Following',
 
     'friend:newfriend:subject' => "%s is now following you!",
     'friend:newfriend:body' => "%s is now following your status!
