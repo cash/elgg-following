@@ -1,4 +1,5 @@
 <?php
+
   $english = array(
     'friends' => "Following",
     'friends:yours' => "You are following",
@@ -96,5 +97,32 @@ To join, click the following link:
 You will automatically follow them when you create your account.",
     );
 
-    add_translation("en", $english);
+
+    // replacing broken core function for Elgg 1.5
+		function fol_add_translation($country_code, $language_array) {
+			
+			global $CONFIG;
+			if (!isset($CONFIG->translations))
+				$CONFIG->translations = array();
+							
+			$country_code = strtolower($country_code);
+			$country_code = trim($country_code);
+			if (is_array($language_array) && sizeof($language_array) > 0 && $country_code != "") {
+				
+				if (!isset($CONFIG->translations[$country_code])) {
+					$CONFIG->translations[$country_code] = $language_array;
+				} else {
+					$language_array += $CONFIG->translations[$country_code];
+					$CONFIG->translations[$country_code] = $language_array;
+				}
+				
+				return true;
+				
+			}
+			return false;
+			
+		}
+
+
+    fol_add_translation("en", $english);
 ?>
