@@ -48,6 +48,8 @@ Please do not reply to this email.",
 	'bookmarks:bookmarklet:description' =>
 		"The bookmarks bookmarklet allows you to share any resource you find on the web with others, or just bookmark it for yourself. To use it, simply drag the following button to your browser's links bar:",
 
+	// event calendar - none needed
+
 	// file
 	'file:yours:friends' => "Following files",
 	'file:friends' => "%s's following files",
@@ -81,6 +83,10 @@ To join, click the following link:
 
 You will automatically follow them when you create your account.",
 
+	// izap video
+	'izap_videos:frnd' => "Following videos",
+	'izap_videos:userfrnd' => "%s's following videos",
+
 	// notifications
 	'friends:all' => 'Everyone you are following',
 	'notifications:subscriptions:collections:title' => 'Collection Notifications',
@@ -88,15 +94,14 @@ You will automatically follow them when you create your account.",
 	'notifications:subscriptions:collections:edit' => 'To edit your collections, click here.',
 	'notifications:subscriptions:description' => 'To receive notifications when new content is created by the people you are following, find them below and select the notification method you would like to use.',
 
-	// izap video
-
 	// riverdashboard
 	'river:widget:description' => "Display your activity or the activity of those you are following.",
 	'river:widgets:friends' => "Following",
 	'river:widget:type' => "Do you want to display your activity or the activity of those you are following?",
 
-
 	// tidypics
+	'album:yours:friends' => "Following photo albums",
+	'album:friends' => "%s's following photo albums",
 	
 	// the wire
 	'thewire:friendsdesc' => 'This widget will show the latest from those you following on the wire',
