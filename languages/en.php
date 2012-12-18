@@ -2,7 +2,7 @@
 
 $english = array(
 	// core
-	'access:friends:label' => 'Following',
+	'access:friends:label' => "Those you are following",
 	'friends' => "Following",
 	'friends:yours' => "You are following",
 	'friends:owned' => "Following %s",
@@ -13,35 +13,27 @@ $english = array(
 	'friends:remove:successful' => "You are no longer following %s.",
 	'friends:remove:failure' => "Error. You cannot stop following %s.",
 	'friends:none' => "This user isn't following anyone yet.",
-	'friends:none:you' => "You aren't following anyone yet. Search for your interests to find people to follow.",
+	'friends:none:you' => "You aren't following anyone yet.",
 	'friends:none:found' => "No followers were found.",
 	'friends:of:none' => "Nobody is following you yet.",
-	'friends:of:none:you' => "Nobody is following you yet. Start adding content and fill in your profile to let people find you!",
-	'friends:of' => "Followers",
+	'friends:of:none:you' => "Nobody is following you yet.",
 	'friends:of:owned' => "People who are following %s",
-	'friends:num_display' => "Number of people to display",
+	'friends:of' => "Followers",
 	'friends:collections' => "Member collections",
 	'friends:collections:add' => "New collection",
 	'friends:addfriends' => "Add to collection",
-	'friends:collectionname' => "Collection name",
 	'friends:collectionfriends' => "Members in collection",
-	'friend:newfriend:subject' => "%s is now following you",
-	'friend:newfriend:body' => "%s is now following you on $CONFIG->sitename
-
-To view their profile, click here:
-
-%s
-
-Please do not reply to this email.",
+	'river:friend:user:default' => "%s is now following %s",
+	'river:widgets:friends' => 'Following activity',
 	'userpicker:only_friends' => 'Only those you are following',
-
-	'friends:river:add' => "%s is now following",
-	'river:relationship:friend' => 'is now following',
+	'river:friends' => 'Following Activity',
+	'friends:widget:description' => "Displays those you are following.",
+	'friends:num_display' => "How many people to display",
+	'friend:newfriend:subject' => "%s is now following you",
+	'friend:newfriend:body' => "%s is now following you.\n\nTo view their profile, click here:\n\n%s\n\nPlease do not reply to this email.",
 
 	// blogs
-	'blog:user:friends' => "%s's following blogs",
-	'blog:friends' => "Following blogs",
-	'blog:yourfriends' => "Latest following blogs",
+	'blog:title:friends' => 'Following blogs',
 
 	// bookmarks
 	'bookmarks:friends' => "Following bookmarks",
@@ -51,22 +43,20 @@ Please do not reply to this email.",
 	// event calendar - none needed
 
 	// file
-	'file:yours:friends' => "Following files",
-	'file:friends' => "%s's following files",
+	'file:friends' => "Following files",
+	'file:title:friends' => "Following",
 	'file:friends:type:video' => "Following videos",
 	'file:friends:type:document' => "Following documents",
 	'file:friends:type:audio' => "Following audio",
 	'file:friends:type:image' => "Following pictures",
 	'file:friends:type:general' => "Following general files",
 
-	// friends widget
-	'friends:widget:description' => "Display who you are following.",
-	'friends:num_display' => "Number to display",
-
 	// groups
-	'groups:invite' => "Invite someone",
+	'groups:invite' => 'Invite someone',
+	'groups:invite:title' => 'Invite someone to this group',
 	'groups:inviteto' => "Invite someone to '%s'",
-	'groups:nofriends' => "You have no one left whom you are following that has not been invited to this group.",
+	'groups:nofriends' => "Everyone you are following has been invited to this group.",
+	'groups:nofriendsatall' => 'You are not following anyone.',
 
 	// invitefriends
 	'friends:invite' => "Invite someone",
@@ -94,18 +84,15 @@ You will automatically follow them when you create your account.",
 	'notifications:subscriptions:collections:edit' => 'To edit your collections, click here.',
 	'notifications:subscriptions:description' => 'To receive notifications when new content is created by the people you are following, find them below and select the notification method you would like to use.',
 
-	// riverdashboard
-	'river:widget:description' => "Display your activity or the activity of those you are following.",
-	'river:widgets:friends' => "Following",
-	'river:widget:type' => "Do you want to display your activity or the activity of those you are following?",
+	// pages
+	'pages:friends' => "Following pages",
 
 	// tidypics
 	'album:yours:friends' => "Following photo albums",
 	'album:friends' => "%s's following photo albums",
 	
 	// the wire
-	'thewire:friendsdesc' => 'This widget will show the latest from those you following on the wire',
-	'thewire:friends' => 'Following activity on the wire',
+	'thewire:friends' => "Wire posts of those you are following",
 );
 
 add_translation("en", $english);
